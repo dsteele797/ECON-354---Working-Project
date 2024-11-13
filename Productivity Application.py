@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -83,10 +77,6 @@ ax.set_xlabel('Year')
 ax.set_ylabel('Labour Productivity')
 ax.legend()
 st.pyplot(fig)
-
-
-# In[ ]:
-
 
 
 
